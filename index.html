@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>task App</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container center">
+      <h1 class="center title">My task App</h1>
+      <div class="flow-right controls">
+        <span>Item count: <span id="item-count">0</span></span>
+        <span>Unchecked count: <span id="unchecked-count">0</span></span>
+      </div>
+      <button class="button center" onClick="newTask()">New task</button>
+      <ul id="task-list" class="task-list"></ul>
+    </div>
+  </body>
+</html>
